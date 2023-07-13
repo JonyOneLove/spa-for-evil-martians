@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "email": "real@mail.com",
+      "password": "$2a$10$K6QDd8jGlIFQhs2tv0DDmOsC1V5SixXoKGKrxVqmMtdgB0j0yGe3K",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "3f94ea9e-52b0-419a-a55b-bb561080a2dc",
+      "name": "Nike Pegasus 40 SE",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc9hvNZMA7Z_ltUUTIOzSomRzNwcs-nbGdkEAKndw2qqywCmVSru4usZ3zjcZJQd9as5oWW80kiF-ER8_2zh7VwcM9OhzBPwbujFRyQyqXRuRBrSUlDh7I2JP7C6fjvqMkRR2bnNVIE1--GcM-9RD4bA=w592-h592-s-no",
+      "price": 129
+    },
+    {
+      "id": "f05a0cda-376c-4ba6-9199-93f27814b64d",
+      "name": "Nike Pegasus 40 Premium",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc_jRD9IWYe9gALfv7avAh6zTCVQL6ggIEoYU21LGhcqD1uGkzqeO4kOBmxmHa5-6XaGOpQxXCbNaD8gpz3hQQFWS9DjxpNRMnaQIvF9KlVoK3jYdZySj3LOWSUSUaF8lRHJw3NVvfhVFsgMlsgTz6Te=w592-h592-s-no",
+      "price": 139
+    },
+    {
+      "id": "2ad7500c-bdb3-4a21-80b6-86f1f4ad6547",
+      "name": "Air Jordan 1 Low",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc-t9Pj0f-GrormjJ6g3_l2FYe0LKfZgzQEI9Fq0FNAAtAawyVOOz2zJEDI3xEYMN6UmsdRyop4AAFYYYnDOp5dVEZ49UDkjVEagamH8ybpjkZv2ORrZd9h_7WvdXJyNnZJGJRH7waQPfSaZhPnsi7Lw=w592-h592-s-no",
+      "price": 119
+    },
+    {
+      "id": "b965de56-67e7-4b9e-9bda-ff64acd58371",
+      "name": "Air Jordan 1 Mid",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc_ysM4earJ-DfD7QuNfNQ60u3w4ZMp4SFBQ5S0mBrl3XMtbqtBuYS4WVjlSMvqAQarXRDtnxThTa7OJL0OrrW3w1h0U66qBsdb3l0pZLsPVZ2B5Oa1AtOKKV1n0w9-HQ7-zsQWAc1NV7QgZOaBzzatB=w592-h592-s-no",
+      "price": 99
+    },
+    {
+      "id": "2ad7500c-bdb3-4a21-80b6-86f1q5ad6547",
+      "name": "Air Jordan 1 Low SE",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc9UKkqQc4-7DO9pvZWR24rAiUnSmt4k4wBYGFCS2VJPlWYlH03PEnhl7L6QfXKSeRjYpAoU-djXwtUFPecti4ES_pL8syCDgJdmDaFt6odkWqvS0tDYtVJ1wLQbacsYrjs2Z_VPIAiD4njaIb8rNpAp=w592-h592-s-no",
+      "price": 129
+    },
+    {
+      "id": "2ad7500c-bdb3-4a21-80b6-89f1r1ad6547",
+      "name": "Nike Air Max Pulse",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc-F0pxeqj0bTyeKBHq_47PNKofyy0Wvvpkw8G5coquj5QlDLGiDyzUHYeL4r59SebyZIXIjYhaOkznqIchGVk2VKrQN95bVUL8Q9aefYl4MIBROFUaB4AQuq9LCHOFv79-Cv4pBE2zuhPWivb3qntQE=w592-h592-s-no",
+      "price": 159
+    },
+    {
+      "id": "2ad7500c-bdb3-4a21-80b6-86fzur4ad6547",
+      "name": "Nike Air Max Furyosa",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc_stsCjSTFl-eS6-x-3dY1f4CGJFugiZeX1fF1b0yoSC5v5wzfvqnXactB6FJ64xEY0qQM2-pAIQV-uDBCtPp8-SKmtm6GYbuJNusrdTyvXGE5EOk0bl5aFGToI8m2DQi4SEqNt2te_pSRSjNv6HGim=w592-h592-s-no",
+      "price": 159
+    },
+    {
+      "id": "2ad7500c-bdb3-4a21-80b6-81fqa4ad6547",
+      "name": "Nike Air Max Plus 3",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc_1xs1i4UsVN2TlUor_lmuT2rIDkqlIv6cYTvsL6H2ERwsruFlfMgsbAmxpTnYBgj8kM7XwM84FDQBI8U5t1hfPluviRF4uJhVYBxXo36NNBj3eQoDhNrwheExo6b8wTBjeVPg2jh5sqWu3U7L3rnwc=w592-h592-s-no",
+      "price": 189
+    },
+    {
+      "id": "2ad7500c-bdb3-4a21-80b6-80y5u6ad6547",
+      "name": "Nike Cortez",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc-eSJYYhMwdWchMtfcUetIrgAIwVHMVO8V8nlgCJlvLrGjZJeZxbrlb2ZjudO6VcHIbszTNW9QkqBXY8FaM7o1y7nIh1CassEKZCPf-ZIhVF64ZCNsaMi_aFKAnO6zHwM3VUdf_kPQFnqXcYPrhakaF=w592-h592-s-no",
+      "price": 99
+    },
+    {
+      "id": "2ad7500c-bdb3-4a21-80b6-87te1t0ad6547",
+      "name": "Nike Cortez '23",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc9ST29IujXHX9XAp_7Ax1yl6xS6D7rIEVUIbHz5imcstSFpn7-uX4UPRAk_aI2PWtBxlnQ3KO6g1LqwoQLVBqjkOnPrbhoOX40gnIXscbUyYDz_HtmnNH1rKdNUg_F6GgWc0ybXhitbxJlJnZjCzlT4=w592-h592-s-no",
+      "price": 65
+    },
+    {
+      "id": "2ad7500c-bdb3-4a21-80b6-80x1d1ad6547",
+      "name": "Nike Cortez SP",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc-H2Hvf9Wo4rB5S2vpGcatp38cK6TLa4aliU_pPJ4MbPjA6hW9bCmrlWRdRh3JVm3niJUAlNDbL-n9dvlkkVGwB9Ohdv0tyh81vF1CUuhzriJAcpVIci-V8jv_a8L8yopIDMea6umWPIng_SqMPPH9Y=w592-h592-s-no",
+      "price": 129
+    }
+  ],
+  "cart": []
+}

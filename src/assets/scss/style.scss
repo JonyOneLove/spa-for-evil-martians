@@ -1,0 +1,46 @@
+@import 'base/null.scss';
+
+$fontFamily: 'Inter';
+$fontSize: 16px;
+$bg: #ffff;
+
+body {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: $bg;
+
+  .drawer-open & {
+    overflow: hidden;
+  }
+}
+
+[class*='__container'] {
+  box-sizing: content-box;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 12px;
+  color: #000;
+  text-align: center;
+  background-color: #e7e9eb;
+  border-radius: 18px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: #b2b2b2;
+    }
+  }
+}
