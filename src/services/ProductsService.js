@@ -1,6 +1,8 @@
+import baseUrl from './Server.js'
+
 export async function getProducts() {
   try {
-    const response = await fetch('http://localhost:8083/products')
+    const response = await fetch(baseUrl + 'products')
     const data = await response.json()
 
     return data

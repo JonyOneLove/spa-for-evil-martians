@@ -11,20 +11,25 @@ const Signup = () => {
 
   const [formData, setFormData] = useState({
     email: '',
-    password: '',
+    password: ''
   })
   const [errorMessage, setErrorMessage] = useState(null)
+  const [isLoading, setIsLoading] = useState(false)
 
-  const isDisabled = Object.values(formData).every(value => value != '')
+  const isDisabled = Object.values(formData).every((value) => value != '')
 
-  const handleChange = event => {
+  const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value })
   }
 
-  const handleSubmit = async event => {
+  const handleSubmit = async (event) => {
     event.preventDefault()
 
+    setIsLoading(true)
+
     const response = await register(formData)
+
+    setIsLoading(false)
 
     if (response.user) {
       localStorage.setItem('access_token', response.accessToken)
@@ -45,7 +50,7 @@ const Signup = () => {
           </div>
         )}
 
-        <form onSubmit={e => handleSubmit(e)} className='auth-form'>
+        <form onSubmit={(e) => handleSubmit(e)} className='auth-form'>
           <div className='auth-form__textbox'>
             <input
               value={formData.email}
@@ -69,11 +74,11 @@ const Signup = () => {
             <img src={passwordIcon} alt='' />
           </div>
           <button
-            disabled={!isDisabled}
+            disabled={!isDisabled || isLoading}
             type='submit'
             className='auth-form__button'
           >
-            Create Account
+            {!isLoading ? 'Create Account' : 'Loggin In'}
           </button>
           <p className='auth-form__text'>
             Already have an account?

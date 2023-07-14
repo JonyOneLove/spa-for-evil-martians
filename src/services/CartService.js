@@ -1,6 +1,8 @@
+import baseUrl from './Server.js'
+
 export async function getCart() {
   try {
-    const response = await fetch('http://localhost:8083/cart')
+    const response = await fetch(baseUrl + 'cart')
     const data = await response.json()
 
     return data
@@ -12,7 +14,7 @@ export async function getCart() {
 
 export async function addToCart(product) {
   try {
-    const response = await fetch(`http://localhost:8083/cart`, {
+    const response = await fetch(baseUrl + 'cart', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(product)
@@ -29,7 +31,7 @@ export async function addToCart(product) {
 
 export async function deleteFromCart(productId) {
   try {
-    const response = await fetch(`http://localhost:8083/cart/${productId}`, {
+    const response = await fetch(baseUrl + `cart/${productId}`, {
       method: 'DELETE'
     })
 

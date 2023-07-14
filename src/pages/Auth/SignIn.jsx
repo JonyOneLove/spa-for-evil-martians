@@ -14,6 +14,7 @@ const SignIn = () => {
     password: ''
   })
   const [errorMessage, setErrorMessage] = useState(null)
+  const [isLoading, setIsLoading] = useState(false)
 
   const isDisabled = Object.values(formData).every((value) => value != '')
 
@@ -24,7 +25,11 @@ const SignIn = () => {
   const handleSubmit = async (event) => {
     event.preventDefault()
 
+    setIsLoading(true)
+
     const response = await login(formData)
+
+    setIsLoading(false)
 
     if (response.user) {
       localStorage.setItem('access_token', response.accessToken)
@@ -69,11 +74,11 @@ const SignIn = () => {
             <img src={passwordIcon} alt='' />
           </div>
           <button
-            disabled={!isDisabled}
+            disabled={!isDisabled || isLoading}
             type='submit'
             className='auth-form__button'
           >
-            Sign In
+            {!isLoading ? 'Sign In' : 'Loggin In'}
           </button>
           <p className='auth-form__text'>
             Don’t have an account?

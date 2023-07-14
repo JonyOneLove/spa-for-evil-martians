@@ -1,10 +1,12 @@
+import baseUrl from './Server.js'
+
 export async function register(userData) {
   console.log(userData)
   try {
-    const response = await fetch('http://localhost:8083/register', {
+    const response = await fetch(baseUrl + 'register', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(userData),
+      body: JSON.stringify(userData)
     })
 
     const data = await response.json()
@@ -18,10 +20,10 @@ export async function register(userData) {
 
 export async function login(userData) {
   try {
-    const response = await fetch('http://localhost:8083/login', {
+    const response = await fetch(baseUrl + 'login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(userData),
+      body: JSON.stringify(userData)
     })
 
     const data = await response.json()
