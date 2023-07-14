@@ -8,6 +8,7 @@
     "server": "json-server-auth --watch db.json --port 8083",
     "start": "concurrently \"npm run dev\" \"npm run server\"",
     "build": "vite build",
+    "buildandserver": "concurrently \"npm run build\" \"npm run server\"",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
