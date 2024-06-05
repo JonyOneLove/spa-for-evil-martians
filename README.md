@@ -1,4 +1,4 @@
-# SPA for Evil Martians
+# SPA 
 
 ## Project setup
 
